@@ -31,7 +31,6 @@ const page = ({ params }) => {
       serverSecret,
       roomId,
       randomID(5),
-        Date.now().toString(),
       "user"
     );
 
