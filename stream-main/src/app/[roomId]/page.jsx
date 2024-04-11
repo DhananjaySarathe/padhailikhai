@@ -21,8 +21,8 @@ const page = ({ params }) => {
     // generate Kit Token
     // const appID = 696349274;
     // ceefa25d80a7898a136a1395fbfec929
-    // const serverSecret = "6f5a8757f4e455e614cee5b31a5b3fce";
-    const serverSecret = "ceefa25d80a7898a136a1395fbfec929";
+    const serverSecret = "6f5a8757f4e455e614cee5b31a5b3fce";
+    // const serverSecret = "ceefa25d80a7898a136a1395fbfec929";
     // const serverSecret = process.env.SERVERSECRET;
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       // process.env.APPID,
