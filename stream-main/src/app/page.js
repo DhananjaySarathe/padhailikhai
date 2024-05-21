@@ -72,13 +72,13 @@ export default function Home() {
 
   return (
     <div className="relative">
-      <h1 className="absolute top-3 left-3 text-3xl">Padhai Likhai</h1>
+      <h1 className="absolute top-3 left-3 text-3xl">Classroom++</h1>
       
       <div className="relative w-screen min-h-screen flex flex-col md:flex-row items-center justify-around py-28 md:py-0 gap-10 md:gap-0">
       <Image src={arrow} width={80} height={80} id="img"  className='absolute bottom-10 left-1/2 -translate-x-1/2' />
         <div className="md:max-w-[50%] max-w-[90%] flex flex-col gap-2 md:gap-6">
           <h1 className="head opacity-0 translate-y-24 text-4xl md:text-7xl font-bold">
-            Padhai Likhai
+            Classroom++
           </h1>
           <p className=" opacity-0 para text-2xl md:text-4xl">
             A promise for a better future ...
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-screen bg-slate-800 flex items-center justify-center py-28">
+      {/* <div className="w-screen bg-slate-800 flex items-center justify-center py-28">
         <div className="border-2 border-gray-200 flex flex-col md:flex-row items-center justify-around py-14 px-4 rounded-3xl max-w-[80%] gap-10 md:gap-0">
           <div className="md:max-w-[50%] flex flex-col gap-4">
             <h1 className="md:text-6xl text-3xl">
@@ -145,9 +145,9 @@ export default function Home() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className='py-20 px-10 flex flex-col gap-16' >
+      {/* <div className='py-20 px-10 flex flex-col gap-16' >
         <h1 className='md:text-8xl text-5xl font-bold' >Elevate Your Learning  
         
 
@@ -155,15 +155,15 @@ export default function Home() {
 
 
 
-<br /> with Padhai Likhai</h1>
+<br /> with Classroom++</h1>
         <div className='flex md:flex-row flex-col items-center gap-12' >
-          <Card h1="Personalized Tutoring Sessions" p="Experience tailored learning with Padhai Likhai. Get individualized attention and guidance from expert tutors, with flexible scheduling options." />
+          <Card h1="Personalized Tutoring Sessions" p="Experience tailored learning with Classroom++. Get individualized attention and guidance from expert tutors, with flexible scheduling options." />
           <Card h1="Interactive Learning Tools" p="Engage in dynamic discussions with real-time collaboration. Practice coding with live feedback and access multimedia resources." />
           <Card h1="Comprehensive Support System" p="Track progress with assessments. Get 24/7 technical support and join a supportive learning community." />
         </div>
-      </div>
+      </div> */}
 
-      <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+      {/* <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
@@ -203,7 +203,7 @@ export default function Home() {
             . All Rights Reserved.
           </span>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
