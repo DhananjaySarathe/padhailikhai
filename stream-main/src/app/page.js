@@ -80,9 +80,9 @@ export default function Home() {
           <h1 className="head opacity-0 translate-y-24 text-4xl md:text-7xl font-bold">
             Classroom++
           </h1>
-          <p className=" opacity-0 para text-2xl md:text-4xl">
+          {/* <p className=" opacity-0 para text-2xl md:text-4xl">
             A promise for a better future ...
-          </p>
+          </p> */}
           <div className="op opacity-0 flex flex-col md:flex-row md:items-center gap-2">
             <button
               className="rounded-md bg-blue-300 py-2 px-3 text-black font-semibold"
